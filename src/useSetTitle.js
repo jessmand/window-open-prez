@@ -1,7 +1,9 @@
-import { useEffect } from 'react';
+import { useEffect } from "react";
 
-export default (title) => {
+const useSetTitle = (title) => {
   useEffect(() => {
     document.title = title;
-  }, [title])
-}
+  }, [title]);
+};
+
+export default useSetTitle;
