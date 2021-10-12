@@ -65,7 +65,7 @@ const NewNamedTab = () => {
       <Code code={nameCode} />
       <div style={{ marginTop: 40, display: "flex" }}>
         <div className="App-section">
-          <h3>Change tab window</h3>
+          <h3>Change tab name</h3>
           <div style={{ display: "flex" }}>
             <input
               value={newWindowName}

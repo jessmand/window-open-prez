@@ -82,3 +82,8 @@ body {
 .App-section:first-child {
   border: none;
 }
+
+.App-me {
+  height: 70vh;
+  margin-bottom: 10px;
+}

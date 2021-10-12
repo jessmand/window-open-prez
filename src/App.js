@@ -22,6 +22,7 @@ const Routes = {
     Component: ActI,
     title: "Act I: The Standard",
     next: "/act-ii",
+    prev: "/act-0",
   },
   "/act-ii": {
     Component: ActII,

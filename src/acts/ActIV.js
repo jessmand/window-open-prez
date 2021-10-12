@@ -2,11 +2,10 @@ import ListReveal from "../ListReveal";
 import useSetTitle from "../useSetTitle";
 
 const Limitations = [
-  "Navigating to a page via browser favorites",
-  "Opening a link someone sent you or that you found somewhere else online",
-  'Right clicking and using the default context menu to "Open in new tab"',
-  "Duplicating an existing tab",
   "Creating a new tab with the browser and directly navigating there",
+  "Opening a link someone sent you or that you found somewhere else online",
+  "Navigating to a page via browser favorites",
+  'Right clicking and using the default context menu to "Open in new tab"',
   "Command + clicking a link",
 ];
 
